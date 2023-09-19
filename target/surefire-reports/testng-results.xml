@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-19T19:44:45 IST" name="Suite" finished-at="2023-09-19T19:45:06 IST" duration-ms="21024">
+  <suite started-at="2023-09-19T22:15:55 IST" name="Suite" finished-at="2023-09-19T22:16:11 IST" duration-ms="16743">
     <groups>
     </groups>
-    <test started-at="2023-09-19T19:44:45 IST" name="Test" finished-at="2023-09-19T19:45:06 IST" duration-ms="21024">
+    <test started-at="2023-09-19T22:15:55 IST" name="Test" finished-at="2023-09-19T22:16:11 IST" duration-ms="16743">
       <class name="com.seleniumPractice.WebTable">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumPractice.WebTable@6bb7cce7]" started-at="2023-09-19T19:44:45 IST" name="setUp" finished-at="2023-09-19T19:45:03 IST" duration-ms="18178" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumPractice.WebTable@1ab3a8c8]" started-at="2023-09-19T22:15:55 IST" name="setUp" finished-at="2023-09-19T22:16:10 IST" duration-ms="15545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getWebTableData()[pri:0, instance:com.seleniumPractice.WebTable@6bb7cce7]" started-at="2023-09-19T19:45:03 IST" name="getWebTableData" finished-at="2023-09-19T19:45:03 IST" duration-ms="238" status="PASS">
+        <test-method signature="getWebTableData()[pri:0, instance:com.seleniumPractice.WebTable@1ab3a8c8]" started-at="2023-09-19T22:16:10 IST" name="getWebTableData" finished-at="2023-09-19T22:16:11 IST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWebTableData -->
-        <test-method signature="getWebTableData2()[pri:0, instance:com.seleniumPractice.WebTable@6bb7cce7]" started-at="2023-09-19T19:45:03 IST" name="getWebTableData2" finished-at="2023-09-19T19:45:03 IST" duration-ms="30" status="PASS">
+        <test-method signature="getWebTableData2()[pri:0, instance:com.seleniumPractice.WebTable@1ab3a8c8]" started-at="2023-09-19T22:16:11 IST" name="getWebTableData2" finished-at="2023-09-19T22:16:11 IST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWebTableData2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumPractice.WebTable@6bb7cce7]" started-at="2023-09-19T19:45:03 IST" name="tearDown" finished-at="2023-09-19T19:45:06 IST" duration-ms="2543" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumPractice.WebTable@1ab3a8c8]" started-at="2023-09-19T22:16:11 IST" name="tearDown" finished-at="2023-09-19T22:16:11 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
