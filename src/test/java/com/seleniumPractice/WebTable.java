@@ -26,6 +26,8 @@ public class WebTable {
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
+		}else {
+			driver = new FirefoxDriver();
 		}
 		driver.get("https://www.w3schools.com/html/html_tables.asp");
 		driver.manage().window().maximize();
